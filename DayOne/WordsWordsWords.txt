@@ -12,3 +12,29 @@ All Lambda logs are stored in CloudWatch.
 Within the world of Incognito, every app has their id, where 
 you use the id to interacte with the API's those are specific
 to your app.
+
+When I am having trouble with AWS Lambda, where the logs
+aren't being produced on CloudWatch, it is likely that 
+this problem is occuring because of the IAM.
+Changing the: 
+
+"Resource": [
+              "arn:aws:logs:us-east-1:565166169329:log-group:/aws/lambda/Calc:*"
+            ]
+
+resolved the above issue for me.
+
+In the below document:
+
+https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-app-integration.html
+
+There is a tuts on sign-on page:
+https://<your_domain>/login?response_type=code&client_id=<your_app_client_id>&redirect_uri=<your_callback_url>
+
+Your client id and call back url is pretty darn self explanatory, but the portion where I put my domain is the one I get
+after creating the whole cognito thing.
+
+In my case ...
+some-prefix-domain-name.auth.us-east-1.amazoncognito.com
+the entire thing gets inserted into <your_domain>.
+
