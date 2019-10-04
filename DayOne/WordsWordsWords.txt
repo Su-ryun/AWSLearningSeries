@@ -1,0 +1,14 @@
+Essentially, when I compare and contrast between AWS Lambda and Docker,
+AWS Lambda is a Docker without me needing to write Docker files.
+
+Turns out, when they are talking about serverless, they are talking
+about serverless for the end users.
+
+When they are talking about stateless, they are talking 
+about your app not needing to persist states.
+
+All Lambda logs are stored in CloudWatch.
+
+Within the world of Incognito, every app has their id, where 
+you use the id to interacte with the API's those are specific
+to your app.
