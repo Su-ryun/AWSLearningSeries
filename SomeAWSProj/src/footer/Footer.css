@@ -1,0 +1,21 @@
+/** For some reason, margin-left is at -5px **/
+.list-inline {
+    width: 100%;
+    height: 50px;
+    background-color:gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px; 
+    margin-left: 0px;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    background-color:#1f1f1f; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

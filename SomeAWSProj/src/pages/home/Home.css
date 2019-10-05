@@ -1,0 +1,221 @@
+#home-welcome {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.thumbnail {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#makers-and-doers {
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+#helping-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#makers-and-doers-text {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#improve-life-text {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#join-us-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    background-color: #419ed8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#weve-been-upto {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+#weve-been-upto-image {
+    width: 500px;
+    height: 200px;
+}
+
+#weve-been-upto-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#who-we-are {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#donate-and-meetup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#donate {
+    margin: 20px;
+    position: relative;
+}
+
+#meetup {
+    margin: 20px;
+    position: relative;
+}
+
+#donate-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#meetup-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#active-projects {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+#active-projects-image {
+    width: 500px;
+    height: 300px;
+}
+
+
+#active-projects-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#github-and-proposals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#github {
+    margin: 20px;
+    position: relative;
+}
+
+#github-image {
+    width: 500px;
+    height: 300px;
+}
+
+#github-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#proposals {
+    margin: 20px;
+    position: relative;
+}
+
+#proposals-image {
+    width: 500px;
+    height: 300px;
+}
+
+#proposal-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#our-partners-text {
+    margin: 50px;
+}
+
+#code-for-america-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px
+}
+
+#city-for-boulder-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#upslope-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
