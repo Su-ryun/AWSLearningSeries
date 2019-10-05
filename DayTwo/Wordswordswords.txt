@@ -1,0 +1,14 @@
+Regions in AWS generally don't matter, long as I am not dealing with VPC stuff.
+
+arn:aws:lambda:us-east-1:565166169329:function:Calc
+
+Wonder what the above is.
+
+API Gateway is a quick way to write REST API for me to use.
+Where API Gateway can be interacted via like the below:
+
+https://{restapi_id}.execute-api.{region}.amazonaws.com/{stage_name}/
+
+Where I just have to provide some URL queries, then, it gives me an JSON object.
+
+Completely stuck on step 7 for API Gateway section.
