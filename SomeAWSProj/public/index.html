@@ -7,6 +7,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/amazon-cognito-auth.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.16.min.js"></script> 
+    <script src="js/amazon-cognito-identity.min.js"></script>  
+    <script src="js/config.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <!--
@@ -38,5 +42,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      var poolData = {
+          UserPoolId : 'us-east-1_4hEGEz3Sl', 
+          ClientId : '31lcktg53cb9ut36l4ss1c6s8t' // your app client id here
+      };
+      
+      var userPool = new AmazonCognitoIdentity.CognitoUserPool(poolData);
+      
+      var userData = {
+          Username : 'TeamRole/MasterKey', // your username here
+          Pool : userPool
+      };
+    </script>
   </body>
 </html>
